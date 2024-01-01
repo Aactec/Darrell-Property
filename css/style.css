@@ -6,7 +6,7 @@
 }
 
 body{
-    background-image: linear-gradient(#f2f2f22e, #f2f2f22e), url(../Drental.jpg);
+    background-image: linear-gradient(#f2f2f22e, #f2f2f22e), url(../image/Drental.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -25,6 +25,18 @@ body div{
     text-align: center;
     width: 82%;
     margin: 15% auto 0;
+    color: #FFFFFF;
+}
+
+div h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 760px) {
+    div h1{
+        font-size: 32px;
+    }
 }
 
 div p{
@@ -35,7 +47,7 @@ div p{
 
 body button{
     background: #9f77ea;
-    padding: 16px 20px;
+    padding: 20px 32px;
     box-shadow: inset 0 0 8px #111111;
     border: none;
     outline: none;
@@ -44,7 +56,7 @@ body button{
 
 body button a{
     text-decoration: none;
-    color: #111111;
+    color: #FFFFFF;
     font-size: 16px;
     font-weight: 600;
 }
